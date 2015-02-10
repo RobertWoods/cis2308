@@ -1,0 +1,69 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>** Your Web Site Title **</title>
+        <style>
+            body {
+                font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                background-image: url(images/findPicture.jpg);  /* Pic size:200-300K, but for sure <500K. Put in folder "images" */
+                background-repeat: no-repeat;
+                background-size: cover;  /* bg pic will stretch when window is resized */
+                background-color: white; /* select color that matches your bg pic */
+            }
+            #container {
+                border:2px solid green;
+                width:85%;  
+                margin:auto;  /* this means center the container div (itself, not its contents) */
+                font-size: 14px;
+                min-width: 750px;  /* if user tries to size smaller than this, scroll bar will kick in. */
+            }
+            #title {
+                border:2px solid brown;
+            }
+            #nav {
+                border:2px solid yellow;
+            }
+            .tab {
+                border:2px solid blue;
+                width:12%;
+                float:left;
+                font-size:14px;
+                min-width:100px; /* tab will only get this narrow when user sizes down window */
+            }
+            .newLine {
+                clear:both;
+            }
+            #content {
+                border:2px solid purple;
+            }
+            .selected {
+                background-color:#CCFF99;
+            }
+            #footer {
+                border:2px solid gold;
+            }
+        </style>
+    </head>
+    <body>
+        <br/>
+        <div id="container">
+            <div id="title">** Your Web Site Title **</div>  <!-- finishes off the title div -->
+            <div id="nav">
+                <div id="home"    class="tab"> <a href="index.jsp">  Home</a></div>
+                <div id="assoc"   class="tab">          <a href="assoc.jsp">**ASSOC**</a></div>
+                <div id="other"   class="tab">          <a href="other.jsp">**OTHER**</a></div>
+                <div id="users"   class="tab">          <a href="users.jsp">  Users</a></div>
+                <div id="search"  class="tab">          <a href="search.jsp"> Search</a></div>
+                <div id="contact" class="tab">          <a href="contact.jsp">Contact</a></div>
+                <div id="labs"    class="tab">          <a href="labs.jsp">   Labs</a></div>
+                <div class="newLine"></div>
+            </div>  <!-- finishes off the nav div -->
+            <div id="content" class="selected">
+                <p> Your content goes here! </p>
+            </div> <!-- finishes off the content div -->
+            <div id="footer">Web Site Design by **Your Name**</div>
+        </div> <!-- finishes off the container div -->
+    </body>
+</html>
