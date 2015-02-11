@@ -24,10 +24,10 @@ body {
     border-radius: 5px;
 }
 #title {
-    background-color: #43C6FE;
+    background-color: pink;
 }
 #nav {
-    background-color: #43C6FE;
+    background-color: pink;
 }
 .tab {
     width:12%;
@@ -48,10 +48,10 @@ body {
     min-height: 270px;
 }
 .selected {
-    background-color:#43C6FE;
+    background-color:pink;
 }
 #footer {
-    background-color: #43C6FE;
+    background-color: pink;
 }
 img {
     float: left;
