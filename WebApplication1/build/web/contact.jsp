@@ -19,7 +19,7 @@
 	<table>
       <tr>What is Your Name?   <input type="text" name="userName" />  <br/> <br/> </tr>
       <tr>Are you a developer?      <input type="radio" name="userType" value="Y"  />   Yes  </tr>
-                                         <input type="radio" name="userSex"  value="N"  />    No  <br/> <br/> 
+                                         <input type="radio" name="userType"  value="N"  />    No  <br/> <br/> 
       <tr> Have you made requests or fulfilled them on this site before <input type="checkbox" name="isUser"  />  <br/> <br/> </tr>
       <tr> Why are you contacting us? </tr>
      <tr>   <select name="contactType" >
